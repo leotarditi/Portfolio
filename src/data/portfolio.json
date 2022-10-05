@@ -1,64 +1,59 @@
 {
     "portfolio": [
         {
-            "cover": "/portfolio/testimonies-app.jpg",
-            "title": "Testimonies",
-            "description": "React, JSX, CSS, HTML",
+            "image": "/portfolio/pomodoro-app.jpg",
+            "name": "Pomodoro Clock",
+            "description": "React, JSX, CSS",
+            "url": "https://codepen.io/leotarditi/full/wvjmYGW"
+        },
+        {
+            "image": "/portfolio/calculator-2-app.jpg",
+            "name": "Calculator 2.0",
+            "description": "React, JSX, CSS",
             "url": "https://testimonies.vercel.app/"
         },
         {
-            "cover": "/portfolio/counter-app.jpg",
-            "title": "Count of click",
-            "description": "React, JSX, CSS, HTML",
-            "url": "https://count-of-clicks.vercel.app/ "
-        },
-        {
-            "cover": "/portfolio/calculator-1-app.jpg",
-            "title": "Calculator 1.0",
-            "description": "React, JSX, CSS, HTML",
-            "url": "https://calculator-mu-vert.vercel.app/"
-        },
-        {
-            "cover": "/portfolio/task-app.jpg",
-            "title": "Task app",
-            "description": "React, JSX, CSS, HTML",
-            "url": "https://app-react-tasks.vercel.app/"
-        },
-        {
-            "cover": "/portfolio/random-app.jpg",
-            "title": "Random Quote App",
-            "description": "React, JSX, CSS, HTML",
-            "url": "https://codepen.io/leotarditi/full/poVdvJW"
-        },
-        {
-            "cover": "/portfolio/markdown-app.jpg",
-            "title": "Markdown Preview",
-            "description": "React, JSX, CSS, HTML",
-            "url": "https://codepen.io/leotarditi/full/abGVOKm"
-        },
-        {
-            "cover": "/portfolio/drum-app.jpg",
-            "title": "Drum Machine",
-            "description": "React, JSX, CSS, HTML",
+            "image": "/portfolio/drum-app.jpg",
+            "name": "Drum Machine",
+            "description": "React, JSX, CSS",
             "url": "https://codepen.io/leotarditi/full/JjvMBWN"
         },
         {
-            "cover": "/portfolio/testimonies-app.jpg",
-            "title": "Testimonies",
-            "description": "React, JSX, CSS, HTML",
-            "url": "https://codepen.io/leotarditi/full/BaxrawO"
+            "image": "/portfolio/task-app.jpg",
+            "name": "Task app",
+            "description": "React, JSX, CSS",
+            "url": "https://app-react-tasks.vercel.app/"
         },
         {
-            "cover": "/portfolio/calculator-2-app.jpg",
-            "title": "Calculator 2.0",
-            "description": "React, JSX, CSS, HTML",
+            "image": "/portfolio/counter-app.jpg",
+            "name": "Count of click",
+            "description": "React, JSX, CSS",
+            "url": "https://count-of-clicks.vercel.app/ "
+        },
+        {
+            "image": "/portfolio/random-app.jpg",
+            "name": "Random Quote App",
+            "description": "React, JSX, CSS",
+            "url": "https://codepen.io/leotarditi/full/poVdvJW"
+        },
+        {
+            "image": "/portfolio/markdown-app.jpg",
+            "name": "Markdown Preview",
+            "description": "React, JSX, CSS",
+            "url": "https://codepen.io/leotarditi/full/abGVOKm"
+        },
+        {
+            "image": "/portfolio/calculator-1-app.jpg",
+            "name": "Calculator 1.0",
+            "description": "React, JSX, CSS",
+            "url": "https://calculator-mu-vert.vercel.app/"
+        },
+        {
+            "image": "/portfolio/testimonies-app.jpg",
+            "name": "Testimonies",
+            "description": "React, JSX, CSS",
             "url": "https://testimonies.vercel.app/"
-        },
-        {
-            "cover": "/portfolio/pomodoro-app.jpg",
-            "title": "Pomodoro Clock",
-            "description": "React, JSX, CSS, HTML",
-            "url": "https://codepen.io/leotarditi/full/wvjmYGW"
         }
+        
     ]
 }
