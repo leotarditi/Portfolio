@@ -4,19 +4,19 @@
             "image": "/portfolio/pomodoro-app.jpg",
             "name": "Pomodoro Clock",
             "description": "React, JSX, CSS",
-            "url": "https://codepen.io/leotarditi/full/wvjmYGW"
+            "url": "https://pomodoro-clock-deploy.vercel.app/"
         },
         {
             "image": "/portfolio/calculator-2-app.jpg",
             "name": "Calculator 2.0",
             "description": "React, JSX, CSS",
-            "url": "https://testimonies.vercel.app/"
+            "url": "https://https-github-com-leotarditi-calculator-2-0.vercel.app/"
         },
         {
             "image": "/portfolio/drum-app.jpg",
             "name": "Drum Machine",
             "description": "React, JSX, CSS",
-            "url": "https://codepen.io/leotarditi/full/JjvMBWN"
+            "url": "https://drum-machine-app-two.vercel.app/"
         },
         {
             "image": "/portfolio/task-app.jpg",
@@ -34,13 +34,13 @@
             "image": "/portfolio/random-app.jpg",
             "name": "Random Quote App",
             "description": "React, JSX, CSS",
-            "url": "https://codepen.io/leotarditi/full/poVdvJW"
+            "url": "https://random-quote-app-iota.vercel.app/"
         },
         {
             "image": "/portfolio/markdown-app.jpg",
             "name": "Markdown Preview",
             "description": "React, JSX, CSS",
-            "url": "https://codepen.io/leotarditi/full/abGVOKm"
+            "url": "https://markdown-preview-app.vercel.app/"
         },
         {
             "image": "/portfolio/calculator-1-app.jpg",
