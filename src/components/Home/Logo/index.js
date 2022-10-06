@@ -1,13 +1,17 @@
 import { useEffect, useRef } from 'react'
 import gsap from 'gsap-trial'
 import DrawSVGPlugin from 'gsap-trial/DrawSVGPlugin'
-import LogoS from '../../../assets/images/logo-sb.png'
+import LogoS from '../../../assets/images/logo_s.png'
+import LogoB from '../../../assets/images/logo_b.png'
+import LogoH from '../../../assets/images/logo_h.png'
 import './index.scss'
 
 const Logo = () => {
   const bgRef = useRef()
   const outlineLogoRef = useRef()
   const solidLogoRef = useRef()
+  const solidLogoRefB = useRef()
+  const solidLogoRefH = useRef()
 
   useEffect(() => {
     gsap.registerPlugin(DrawSVGPlugin)
@@ -34,6 +38,30 @@ const Logo = () => {
         duration: 4,
       }
     )
+
+    gsap.fromTo(
+      solidLogoRefB.current,
+      {
+        opacity: 0,
+      },
+      {
+        opacity: 1,
+        delay: 4,
+        duration: 4,
+      }
+    )
+
+    gsap.fromTo(
+      solidLogoRefH.current,
+      {
+        opacity: 0,
+      },
+      {
+        opacity: 1,
+        delay: 6,
+        duration: 3,
+      }
+    )
   }, [])
 
   return (
@@ -42,6 +70,20 @@ const Logo = () => {
         className="solid-logo"
         ref={solidLogoRef}
         src={LogoS}
+        alt="JavaScript,  Developer"
+      />
+
+      <img
+        className="solid-logo-b"
+        ref={solidLogoRefB}
+        src={LogoB}
+        alt="JavaScript,  Developer"
+      />
+
+      <img
+        className="solid-logo-h"
+        ref={solidLogoRefH}
+        src={LogoH}
         alt="JavaScript,  Developer"
       />
 

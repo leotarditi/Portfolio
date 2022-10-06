@@ -17,17 +17,32 @@
     transform: rotateZ(30deg) !important;
   }
 
-  .solid-logo {
+  .solid-logo,
+  .solid-logo-b,
+  .solid-logo-h {
     position: absolute;
     top: auto;
     right: auto;
     bottom: auto;
-    left: 4px;
+    left: 1;
     margin: auto;
     width: 100%;
     opacity: 0;
     transform: rotateZ(30deg) !important;
     z-index: 1;
+  }
+
+  .solid-logo-b {
+    top: 250px;
+    left: 100px;
+    width: 70%;
+    transform: rotateZ(15deg) !important;
+  }
+
+  .solid-logo-h {
+    left: 190px;
+    top: -50px;
+    width: 110%;
   }
 }
 
